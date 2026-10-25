@@ -134,13 +134,32 @@ Because skill directory names are in Chinese, always specify the destination nam
 
 ## 6. Contributing
 
-To add a skill, follow this order:
+### 6.1 Adding a skill
 
 1. Confirm `SKILL.md` is complete and describes the whole system, with a `description` that triggers accurately;
 2. Create a `name-scope` directory under the proper category and place the whole package inside without splitting it;
 3. Write the directory `README.md` covering purpose, scope, usage, and boundaries;
-4. Update the skill list in this file;
+4. **Update all four READMEs as described in 6.2**;
 5. Confirm no third-party copyrighted content and no paid-edition content is mixed in.
+
+### 6.2 README Synchronization (Mandatory)
+
+**A skill must be committed together with its README updates. Adding a skill first and fixing the docs later is not allowed; documentation must never lag behind the repository contents.**
+
+For every skill added, all four locations below must be updated in the same commit:
+
+| Location | What to update |
+| --- | --- |
+| `README.md` | Add a row to the Chinese skill list: name, directory link, scope, status |
+| `README_EN.md` | Add the same row to the English list, matching the Chinese version item by item |
+| `<category>/README.md` | Add a row to the category's "included skills" table and sync the status |
+| `<skill directory>/README.md` | Fill in purpose, scope, invocation, and boundaries |
+
+Check three things before committing:
+
+1. Skill count, directory paths, and status labels must be identical across the Chinese and English lists;
+2. When a status changes from `Pending import` to `Imported`, change all four places at once — never leave a stale status anywhere;
+3. Run `git diff --stat` to self-check. A commit whose READMEs did not change accordingly is invalid and must not be pushed.
 
 ---
 

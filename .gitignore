@@ -1,0 +1,21 @@
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 临时文件
+*.tmp
+*.bak
+.temp/
+
+# 运行时产物
+node_modules/
+__pycache__/
+*.pyc
+*.log

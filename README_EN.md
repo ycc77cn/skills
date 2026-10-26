@@ -27,7 +27,7 @@ Categories serve for domain grouping only. There is no second-level taxonomy. Sk
 
 | Skill | Directory | Scope | Status |
 | --- | --- | --- | --- |
-| Comprehensive Divination | [`国学占卜/综合占卜-七层卜术/`](国学占卜/综合占卜-七层卜术/) | Seven layers: Destiny (Bazi), Affairs (Liuyao), Fortune (Xiao Liuren), Physiognomy (human and land), Timing (date selection), Strategy (Qimen and Da Liuren), Folklore (dream interpretation) | Pending import |
+| Comprehensive Divination | [`国学占卜/综合占卜-七层卜术/`](国学占卜/综合占卜-七层卜术/) | Eight layers: Destiny (Bazi with compatibility), Affairs (Liuyao), Fortune (Xiao Liuren), Physiognomy (human and land), Timing (date selection), Strategy (Qimen and Da Liuren), Mountains (talisman archive research), Folklore (dream interpretation) | Imported |
 | Plum Blossom Numerology | [`国学占卜/梅花易数-四法十八类/`](国学占卜/梅花易数-四法十八类/) | Four casting methods: time, number, text, external omen; eighteen divination categories | Pending import |
 
 ### Software Development
@@ -168,3 +168,5 @@ Check three things before committing:
 This project is released under the MIT License. See [LICENSE](LICENSE).
 
 If a skill directory contains its own `LICENSE`, that file takes precedence.
+
+**Third-party content notice**: Some skills embed full third-party texts and knowledge bases, intended for study and research only. If you are a rights holder and believe any content infringes your rights, please contact the author (ycc77cn) via a repository Issue or the profile contact; the content will be removed promptly upon verification.

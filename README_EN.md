@@ -42,13 +42,40 @@ Categories serve for domain grouping only. There is no second-level taxonomy. Sk
 
 ### Digital Forensics
 
-No skills yet. New skills will be added as `name-scope` directories when content is ready.
+| Skill | Directory | Scope | Status |
+| --- | --- | --- | --- |
+| Tool Invocation Framework | [`电子取证/安全工具调用-框架底座/`](电子取证/安全工具调用-框架底座/) | Seven tool families: disk, memory, network, scanning, mobile, cracking, recovery; scheduling and audit trail | Imported |
+| Data Acquisition | [`电子取证/数据采集-证据固定/`](电子取证/数据采集-证据固定/) | Imaging, hash verification, anomaly extraction, parallel acquisition, tamper monitoring | Imported |
+| Storage File Forensics | [`电子取证/存储文件取证-磁盘分区/`](电子取证/存储文件取证-磁盘分区/) | Database files, spreadsheets, structured data, logs, backups, proprietary formats, metadata | Imported |
+| Memory Forensics | [`电子取证/内存取证-易失数据/`](电子取证/内存取证-易失数据/) | Memory images, processes, network connections, credentials and keys, malicious code, system info | Imported |
+| Mobile Device Forensics | [`电子取证/移动设备取证-安卓苹果/`](电子取证/移动设备取证-安卓苹果/) | Extraction tiers, iOS and Android paths, in-depth app analysis | Imported |
+| Cloud Forensics | [`电子取证/云环境取证-云主机对象/`](电子取证/云环境取证-云主机对象/) | Cloud platform data, containers, service logs, SaaS, IAM, hybrid cloud | Imported |
+| Database Forensics | [`电子取证/数据库取证-库表记录/`](电子取证/数据库取证-库表记录/) | Recovery, operation audit, tamper detection, security analysis, type differences, export | Imported |
+| Network Traffic Forensics | [`电子取证/网络流量取证-协议还原/`](电子取证/网络流量取证-协议还原/) | Capture, protocol parsing, covert channels, session reconstruction, behavior analysis | Imported |
+| Email Forensics | [`电子取证/电子邮件取证-客户端邮箱/`](电子取证/电子邮件取证-客户端邮箱/) | Header tracing, content, attachments, accounts, metadata, server logs | Imported |
+| Blockchain Forensics | [`电子取证/区块链取证-链上资金/`](电子取证/区块链取证-链上资金/) | On-chain transactions, address clustering, fund tracing, contracts, cross-chain, threat intel | Imported |
+| IoT Forensics | [`电子取证/IoT取证-物联网终端/`](电子取证/IoT取证-物联网终端/) | Smart home, vehicles, wearables, ICS, drones, firmware and protocols | Imported |
+| Social Media Forensics | [`电子取证/社交媒体取证-账号内容/`](电子取证/社交媒体取证-账号内容/) | Domestic and international platforms, account tracing, propagation, illegal content, preservation | Imported |
+| Multimedia Analysis | [`电子取证/多媒体分析-图像音频视频/`](电子取证/多媒体分析-图像音频视频/) | Image search, video structuring, forgery detection, audio analysis, metadata | Imported |
+| Text and NLP Analysis | [`电子取证/文本分析-NLP挖掘/`](电子取证/文本分析-NLP挖掘/) | Semantic retrieval, relationship graphs, temporal behavior, cross-language, sentiment | Imported |
+| Timeline Analysis | [`电子取证/时间线分析-行为还原/`](电子取证/时间线分析-行为还原/) | Multi-source time integration, timeline construction, behavior patterns, key events, timestamp validation | Imported |
+| Data Recovery | [`电子取证/数据恢复-碎片重组/`](电子取证/数据恢复-碎片重组/) | Signature carving, fragment reassembly, database recovery, RAID rebuild, special cases | Imported |
+| Data Cleaning | [`电子取证/数据清洗-取证数据/`](电子取证/数据清洗-取证数据/) | Deduplication, format normalization, outliers, missing values, quality scoring, masking | Imported |
+| Anomaly Detection | [`电子取证/异常识别-模式比对/`](电子取证/异常识别-模式比对/) | Fund-chain analysis, network anomalies, clustering, association rules, risk scoring | Imported |
+| Encryption and Password Cracking | [`电子取证/加密破解-密码密钥/`](电子取证/加密破解-密码密钥/) | Password recovery, file and disk encryption, OS passwords, hash identification, strength assessment | Imported |
+| Malware Analysis | [`电子取证/恶意软件分析-样本行为/`](电子取证/恶意软件分析-样本行为/) | Sample profiling, static and dynamic analysis, family classification, attribution, threat intel | Imported |
+| Anti-Forensics Detection | [`电子取证/反取证检测-痕迹对抗/`](电子取证/反取证检测-痕迹对抗/) | Wiping traces, data hiding, timestamp tampering, log clearing, rootkits, sandbox evasion | Imported |
+| Sandbox Execution | [`电子取证/沙箱执行-隔离运行/`](电子取证/沙箱执行-隔离运行/) | Environment management, sample execution, behavior monitoring, operation validation, isolation | Imported |
+| Environment Emulation | [`电子取证/环境仿真-运行还原/`](电子取证/环境仿真-运行还原/) | Disk image, database, mobile, and network emulation with consistency verification | Imported |
+| Evidence Compliance | [`电子取证/证据合规-司法报告/`](电子取证/证据合规-司法报告/) | Process compliance, chain of custody, judicial report generation, visualization, courtroom support | Imported |
+| File Organization | [`电子取证/文件整理-自动归类/`](电子取证/文件整理-自动归类/) | Naming rules, directory structure, classification standards, auto-organization, safeguards | Imported |
 
 ### Penetration Testing
 
 | Skill | Directory | Scope | Status |
 | --- | --- | --- | --- |
 | SRC Vulnerability Research | [`渗透/SRC漏洞挖掘-全流程/`](渗透/SRC漏洞挖掘-全流程/) | Endpoint discovery, authorization and injection and logic flaw validation, WAF evasion, multi-stack white-box audit, Chinese SRC reports | Imported |
+| Attack Log Analysis | [`渗透/攻击日志分析-入侵溯源/`](渗透/攻击日志分析-入侵溯源/) | Intrusion confirmation, attack chain reconstruction, deep log analysis, sample extraction, attribution | Imported |
 
 > Status notes: `Pending import` means the skill exists and awaits packaging; `Planned` means content is not yet written.
 

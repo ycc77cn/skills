@@ -17,7 +17,7 @@ An open-source skill library for AI agents, organized by domain and following th
 | Digital Forensics | [`电子取证/`](电子取证/) | Evidence preservation, extraction, analysis, reconstruction |
 | Penetration Testing | [`渗透/`](渗透/) | Pentesting, vulnerability research, security assessment |
 
-Categories serve for domain grouping only. There is no second-level taxonomy. Skill directories sit directly under a category, and the directory name states its own scope — for example `综合占卜-七层卜术`, which reads as "Comprehensive Divination — Seven Layers".
+Categories serve for domain grouping only. There is no second-level taxonomy. Skill directories sit directly under a category, and the directory name states its own scope — for example `综合占卜-八层卜术`, which reads as "Comprehensive Divination — Seven Layers".
 
 ---
 
@@ -27,12 +27,18 @@ Categories serve for domain grouping only. There is no second-level taxonomy. Sk
 
 | Skill | Directory | Scope | Status |
 | --- | --- | --- | --- |
-| Comprehensive Divination | [`国学占卜/综合占卜-七层卜术/`](国学占卜/综合占卜-七层卜术/) | Eight layers: Destiny (Bazi with compatibility), Affairs (Liuyao), Fortune (Xiao Liuren), Physiognomy (human and land), Timing (date selection), Strategy (Qimen and Da Liuren), Mountains (talisman archive research), Folklore (dream interpretation) | Imported |
-| Plum Blossom Numerology | [`国学占卜/梅花易数-四法十八类/`](国学占卜/梅花易数-四法十八类/) | Four casting methods: time, number, text, external omen; eighteen divination categories | Pending import |
+| Comprehensive Divination | [`国学占卜/综合占卜-八层卜术/`](国学占卜/综合占卜-八层卜术/) | Eight layers: Destiny (Bazi with compatibility), Affairs (Liuyao), Fortune (Xiao Liuren), Physiognomy (human and land), Timing (date selection), Strategy (Qimen and Da Liuren), Mountains (talisman archive research), Folklore (dream interpretation) | Imported |
+| Plum Blossom Numerology | [`国学占卜/梅花易数-四法十八类/`](国学占卜/梅花易数-四法十八类/) | Four casting methods: time, number, text, external omen; eighteen divination categories | Imported |
 
 ### Software Development
 
-No skills yet. New skills will be added as `name-scope` directories when content is ready.
+| Skill | Directory | Scope | Status |
+| --- | --- | --- | --- |
+| Code Standardization | [`软件开发/代码规范化-六维/`](软件开发/代码规范化-六维/) | Six dimensions: code body, files and directories, comments, interface naming, engineering conventions, security; refactor and authoring modes | Imported |
+| Development Workflow | [`软件开发/开发标准流程-七步/`](软件开发/开发标准流程-七步/) | Seven steps: discuss first, back up, edit, launch both ends, browser test, white-box audit, item-by-item verification | Imported |
+| Nuxt Chinese Comments | [`软件开发/Nuxt中文注释-函数级/`](软件开发/Nuxt中文注释-函数级/) | Four comment types: file header, function, code block, component | Imported |
+| Nuxt Minimalist Design | [`软件开发/Nuxt极简设计-三要素/`](软件开发/Nuxt极简设计-三要素/) | Three elements: high whitespace, monochrome palette, high-contrast shadows, plus five detailed aspects | Imported |
+| Code Backup | [`软件开发/代码备份-ZIP归档/`](软件开发/代码备份-ZIP归档/) | `beifen` directory, ZIP format, timestamp plus action naming, dependency and build exclusions | Imported |
 
 ### Digital Forensics
 
@@ -40,7 +46,9 @@ No skills yet. New skills will be added as `name-scope` directories when content
 
 ### Penetration Testing
 
-No skills yet. New skills will be added as `name-scope` directories when content is ready.
+| Skill | Directory | Scope | Status |
+| --- | --- | --- | --- |
+| SRC Vulnerability Research | [`渗透/SRC漏洞挖掘-全流程/`](渗透/SRC漏洞挖掘-全流程/) | Endpoint discovery, authorization and injection and logic flaw validation, WAF evasion, multi-stack white-box audit, Chinese SRC reports | Imported |
 
 > Status notes: `Pending import` means the skill exists and awaits packaging; `Planned` means content is not yet written.
 
@@ -91,7 +99,7 @@ Two levels only: `category / skill directory`. No second-level taxonomy, so no e
 Examples:
 
 ```text
-国学占卜/综合占卜-七层卜术/     # not split into 命 / 卜 / 相 subdirectories
+国学占卜/综合占卜-八层卜术/     # not split into 命 / 卜 / 相 subdirectories
 国学占卜/梅花易数-四法十八类/   # "four methods" = casting methods; "eighteen categories" = reading categories
 ```
 

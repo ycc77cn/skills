@@ -16,8 +16,9 @@ An open-source skill library for AI agents, organized by domain and following th
 | Software Development | [`软件开发/`](软件开发/) | Code standards, engineering workflow |
 | Digital Forensics | [`电子取证/`](电子取证/) | Evidence preservation, extraction, analysis, reconstruction |
 | Penetration Testing | [`渗透/`](渗透/) | Pentesting, vulnerability research, security assessment |
+| Prompts | [`提示词/`](提示词/) | Copy-ready prompt texts, not organized as skills |
 
-Categories serve for domain grouping only. There is no second-level taxonomy. Skill directories sit directly under a category, and the directory name states its own scope — for example `综合占卜-八层卜术`, which reads as "Comprehensive Divination — Seven Layers".
+Categories serve for domain grouping only. Skill directories sit directly under a category, and the directory name states its own scope — for example `综合占卜-八层卜术`, which reads as "Comprehensive Divination — Seven Layers". The `提示词/` category is the exception and groups prompts by usage.
 
 ---
 
@@ -77,6 +78,10 @@ Categories serve for domain grouping only. There is no second-level taxonomy. Sk
 | SRC Vulnerability Research | [`渗透/SRC漏洞挖掘-全流程/`](渗透/SRC漏洞挖掘-全流程/) | Endpoint discovery, authorization and injection and logic flaw validation, WAF evasion, multi-stack white-box audit, Chinese SRC reports | Imported |
 | Attack Log Analysis | [`渗透/攻击日志分析-入侵溯源/`](渗透/攻击日志分析-入侵溯源/) | Intrusion confirmation, attack chain reconstruction, deep log analysis, sample extraction, attribution | Imported |
 
+### Prompts
+
+No prompts yet. This category uses `PROMPT.md` + `README.md` instead of `SKILL.md`; see [`提示词/README.md`](提示词/README.md).
+
 > Status notes: `Pending import` means the skill exists and awaits packaging; `Planned` means content is not yet written.
 
 ---
@@ -115,6 +120,8 @@ A skill without `SKILL.md` is not accepted. A `SKILL.md` too vague to support th
 ### Structure
 
 Two levels only: `category / skill directory`. No second-level taxonomy, so no empty nesting.
+
+**Single exception**: the `提示词/` category allows three levels, namely `提示词/<usage group>/<prompt directory>/`. Prompts are numerous and varied in purpose, so grouping by usage keeps things readable. Prompt directories use `PROMPT.md` + `README.md` instead of `SKILL.md`.
 
 ### Naming
 

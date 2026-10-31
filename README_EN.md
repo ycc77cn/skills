@@ -16,6 +16,7 @@ An open-source skill library for AI agents, organized by domain and following th
 | Software Development | [`软件开发/`](软件开发/) | Code standards, engineering workflow |
 | Digital Forensics | [`电子取证/`](电子取证/) | Evidence preservation, extraction, analysis, reconstruction |
 | Penetration Testing | [`渗透/`](渗透/) | Pentesting, vulnerability research, security assessment |
+| Persona Design | [`角色设定/`](角色设定/) | Persona, personality, and speech-style replication |
 | Prompts | [`提示词/`](提示词/) | Copy-ready prompt texts, not organized as skills |
 
 Categories serve for domain grouping only. Skill directories sit directly under a category, and the directory name states its own scope — for example `综合占卜-八层卜术`, which reads as "Comprehensive Divination — Seven Layers". The `提示词/` category is the exception and groups prompts by usage.
@@ -77,6 +78,12 @@ Categories serve for domain grouping only. Skill directories sit directly under 
 | --- | --- | --- | --- |
 | SRC Vulnerability Research | [`渗透/SRC漏洞挖掘-全流程/`](渗透/SRC漏洞挖掘-全流程/) | Endpoint discovery, authorization and injection and logic flaw validation, WAF evasion, multi-stack white-box audit, Chinese SRC reports | Imported |
 | Attack Log Analysis | [`渗透/攻击日志分析-入侵溯源/`](渗透/攻击日志分析-入侵溯源/) | Intrusion confirmation, attack chain reconstruction, deep log analysis, sample extraction, attribution | Imported |
+
+### Persona Design
+
+| Skill | Directory | Scope | Status |
+| --- | --- | --- | --- |
+| YangCC Persona | [`角色设定/杨CC性格-人设复刻/`](角色设定/杨CC性格-人设复刻/) | Ten personality traits, four layers of speech style, three interaction scenarios, five execution rules | Imported |
 
 ### Prompts
 

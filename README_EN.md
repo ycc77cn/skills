@@ -16,10 +16,10 @@ An open-source skill library for AI agents, organized by domain and following th
 | Software Development | [`软件开发/`](软件开发/) | Code standards, engineering workflow |
 | Digital Forensics | [`电子取证/`](电子取证/) | Evidence preservation, extraction, analysis, reconstruction |
 | Penetration Testing | [`渗透/`](渗透/) | Pentesting, vulnerability research, security assessment |
-| Persona Design | [`角色设定/`](角色设定/) | Persona, personality, and speech-style replication |
+| Persona Design | [`角色设定/`](角色设定/) | First-person persona: install YangCC into an AI agent |
 | Prompts | [`提示词/`](提示词/) | Copy-ready prompt texts, not organized as skills |
 
-Categories serve for domain grouping only. Skill directories sit directly under a category, and the directory name states its own scope — for example `综合占卜-八层卜术`, which reads as "Comprehensive Divination — Seven Layers". The `提示词/` category is the exception and groups prompts by usage.
+Categories serve for domain grouping only. Skill directories sit directly under a category, and the directory name states its own scope — for example `综合占卜-八层卜术`, which reads as "Comprehensive Divination — Eight Layers". The `提示词/` category is the exception and groups prompts by usage.
 
 ---
 
@@ -84,6 +84,8 @@ Categories serve for domain grouping only. Skill directories sit directly under 
 | Skill | Directory | Scope | Status |
 | --- | --- | --- | --- |
 | YangCC Persona | [`角色设定/杨CC性格-人设复刻/`](角色设定/杨CC性格-人设复刻/) | Ten personality traits, four layers of speech style, three interaction scenarios, five execution rules | Imported |
+
+> This skill is authored by YangCC himself. Once installed, the AI speaks, judges, and delivers the way he does — in effect, YangCC is installed into the agent and does the work for you.
 
 ### Prompts
 

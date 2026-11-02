@@ -14,6 +14,9 @@ desktop.ini
 *.bak
 .temp/
 
+# 本地备份
+beifen/
+
 # 运行时产物
 node_modules/
 __pycache__/

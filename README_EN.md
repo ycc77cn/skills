@@ -40,7 +40,8 @@ Categories serve for domain grouping only. Skill directories sit directly under 
 | Development Workflow | [`软件开发/开发标准流程-七步/`](软件开发/开发标准流程-七步/) | Seven steps: discuss first, back up, edit, launch both ends, browser test, white-box audit, item-by-item verification | Imported |
 | Nuxt Chinese Comments | [`软件开发/Nuxt中文注释-函数级/`](软件开发/Nuxt中文注释-函数级/) | Four comment types: file header, function, code block, component | Imported |
 | Nuxt Minimalist Design | [`软件开发/Nuxt极简设计-三要素/`](软件开发/Nuxt极简设计-三要素/) | Three elements: high whitespace, monochrome palette, high-contrast shadows, plus five detailed aspects | Imported |
-| Code Backup | [`软件开发/代码备份-ZIP归档/`](软件开发/代码备份-ZIP归档/) | `beifen` directory, ZIP format, timestamp plus action naming, dependency and build exclusions | Imported |
+| Code Backup (rules) | [`软件开发/代码备份-ZIP归档/`](软件开发/代码备份-ZIP归档/) | `beifen` directory, ZIP format, timestamp plus action naming, dependency and build exclusions, backup before editing | Imported |
+| Auto Backup (executor) | [`软件开发/自动备份-永不删除/`](软件开发/自动备份-永不删除/) | Auto-trigger after edits, timestamp plus 20-char summary naming, backups never deleted, overwrite-protected | Imported |
 
 ### Digital Forensics
 
